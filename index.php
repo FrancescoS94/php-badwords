@@ -17,8 +17,7 @@ $textReplace = str_replace($name, "***", $text);
     </head>
     <body>
         <p><?php echo $text; ?></p>
-        <p>La lunghezza è: <?php echo $text; ?></p>
-        <p><?php echo $textReplace; ?></p>
         <p>La lunghezza è: <?php echo $textLeng; ?></p>
+        <p><?php echo $textReplace; ?></p>
     </body>
 </html>
